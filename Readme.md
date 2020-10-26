@@ -1,6 +1,8 @@
-# Manage Clients:
+# Manage Clients and Backups:
 ```
 ManageWP
+MainWP
+UpdraftPlus
 ```
 
 # Page Builders:
@@ -17,6 +19,21 @@ Smush – Lazy Load Images, Optimize & Compress Images
 # SEO:
 ```
 Yoast SEO
+```
+
+# SSL:
+```
+Really Simple SSL
+```
+
+# Email:
+```
+WP Mail SMTP by WPForms
+```
+
+# Social Login & Share Icons
+```
+Super Socializer
 ```
 
 # Chat:

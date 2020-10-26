@@ -1,4 +1,4 @@
-# Manage Clients and Backups:
+# Manage Clients & Backups:
 ```
 ManageWP
 MainWP
@@ -16,12 +16,12 @@ Unlimited Elements for Elementor
 Smush – Lazy Load Images, Optimize & Compress Images
 ```
 
-# SEO:
+# SEO & Digital Marketing:
 ```
 Yoast SEO
 ```
 
-# SSL:
+# SSL & Security:
 ```
 Really Simple SSL
 ```
@@ -31,7 +31,7 @@ Really Simple SSL
 WP Mail SMTP by WPForms
 ```
 
-# Social Login & Share Icons
+# Social Login & Share Icons:
 ```
 Super Socializer
 ```

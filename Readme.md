@@ -1,14 +1,25 @@
-# Manage Clients
+# Manage Clients:
 ```
 ManageWP
 ```
 
-# Page Builders
+# Page Builders:
 ```
 Elementor
+Unlimited Elements for Elementor
 ```
 
-# Chat
+# Optimization:
+```
+Smush – Lazy Load Images, Optimize & Compress Images
+```
+
+# SEO:
+```
+Yoast SEO
+```
+
+# Chat:
 ```
 Raychat
 Crisp

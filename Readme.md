@@ -1,42 +1,43 @@
-# Manage Clients & Backups:
+# Wordpress:
+## Manage Clients & Backups:
 ```
 ManageWP
 MainWP
 UpdraftPlus
 ```
 
-# Page Builders:
+## Page Builders:
 ```
 Elementor
 Unlimited Elements for Elementor
 ```
 
-# Optimization:
+## Optimization:
 ```
 Smush – Lazy Load Images, Optimize & Compress Images
 ```
 
-# SEO & Digital Marketing:
+## SEO & Digital Marketing:
 ```
 Yoast SEO
 ```
 
-# SSL & Security:
+## SSL & Security:
 ```
 Really Simple SSL
 ```
 
-# Email:
+## Email:
 ```
 WP Mail SMTP by WPForms
 ```
 
-# Social Login & Share Icons:
+## Social Login & Share Icons:
 ```
 Super Socializer
 ```
 
-# Chat:
+## Chat:
 ```
 Raychat
 Crisp

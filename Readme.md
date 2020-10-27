@@ -23,6 +23,7 @@ Smush – Lazy Load Images, Optimize & Compress Images
 ## -SEO & Digital Marketing:
 ```
 Yoast SEO
+RankMath
 Google Analytics Dashboard Plugin for WordPress by MonsterInsights
 Google XML Sitemaps
 ```

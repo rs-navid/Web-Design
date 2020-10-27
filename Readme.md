@@ -64,7 +64,7 @@ SendPulse
 Najva (www.najva.com) 
 ```
 
-# -Chrome Extentions:
+# -Chrome Extensions:
 ```
 WHATFONT (find out the fonts used in a webpage)
 ColorPick Eyedropper (select color values from webpages)
@@ -73,6 +73,11 @@ Wappalyzer (Identify technologies on websites)
 SimilarWeb (Traffic Rank & Website Analysis)
 FireShot (Take Webpage Screenshots Entirely)
 View Image (Re-implements the Google Images' "View Image")
+```
+
+# -Theme Sites:
+```
+https://themeforest.net
 ```
 
 

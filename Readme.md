@@ -11,6 +11,7 @@ UpdraftPlus
 Elementor (elementorfa.ir) 
 Unlimited Elements for Elementor
 Jet
+Envato Elements
 ```
 
 ## Optimization:
@@ -29,6 +30,7 @@ Google XML Sitemaps
 ## SSL & Security:
 ```
 Really Simple SSL
+iThemes Security
 ```
 
 ## Email:

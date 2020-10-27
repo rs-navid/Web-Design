@@ -58,13 +58,13 @@ GTmetrix
 Pingdom
 ```
 
-# -Push Notification:
+## -Push Notification:
 ```
 SendPulse
 Najva (www.najva.com) 
 ```
 
-# -Chrome Extensions:
+## -Chrome Extensions:
 ```
 WHATFONT (find out the fonts used in a webpage)
 ColorPick Eyedropper (select color values from webpages)
@@ -75,7 +75,7 @@ FireShot (Take Webpage Screenshots Entirely)
 View Image (Re-implements the Google Images' "View Image")
 ```
 
-# -Theme Sites:
+## -Theme Sites:
 ```
 https://themeforest.net
 ```

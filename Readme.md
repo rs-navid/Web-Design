@@ -14,12 +14,15 @@ Unlimited Elements for Elementor
 
 ## Optimization:
 ```
+WP Rocket
 Smush – Lazy Load Images, Optimize & Compress Images
 ```
 
 ## SEO & Digital Marketing:
 ```
 Yoast SEO
+Google Analytics Dashboard Plugin for WordPress by MonsterInsights
+Google XML Sitemaps
 ```
 
 ## SSL & Security:
@@ -42,6 +45,14 @@ Super Socializer
 Raychat
 Crisp
 Tidio
+```
+
+# MISC:
+## Page Speed:
+```
+PageSpeed Insights
+GTmetrix
+Pingdom
 ```
 
 

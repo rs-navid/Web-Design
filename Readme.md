@@ -8,13 +8,14 @@ UpdraftPlus
 
 ## Page Builders:
 ```
-Elementor
+Elementor (elementorfa.ir) 
 Unlimited Elements for Elementor
+Jet
 ```
 
 ## Optimization:
 ```
-WP Rocket
+WP Rocket (wp-rocket.ir) 
 Smush – Lazy Load Images, Optimize & Compress Images
 ```
 

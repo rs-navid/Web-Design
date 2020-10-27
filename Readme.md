@@ -51,6 +51,11 @@ Crisp
 Tidio
 ```
 
+## -MISC:
+```
+Insert Headers and Footers
+```
+
 # MISC:
 ## -Page Speed:
 ```

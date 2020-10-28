@@ -87,5 +87,25 @@ View Image (Re-implements the Google Images' "View Image")
 https://themeforest.net
 ```
 
+## -Vector Icons:
+```
+https://www.flaticon.com
+https://www.iconfinder.com
+```
+
+## -Images:
+```
+https://unsplash.com
+https://www.freeimages.com
+https://pixabay.com
+```
+
+## -Graphic Resources:
+```
+https://www.freepik.com
+https://undraw.co/
+```
+
+
 
 

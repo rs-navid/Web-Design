@@ -25,6 +25,7 @@ Smush – Lazy Load Images, Optimize & Compress Images
 Yoast SEO
 RankMath
 Google Analytics Dashboard Plugin for WordPress by MonsterInsights
+Internal Link Juicer: SEO Auto Linker for WordPress
 Google XML Sitemaps
 ```
 

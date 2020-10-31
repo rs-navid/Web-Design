@@ -4,6 +4,7 @@
 ManageWP
 MainWP
 UpdraftPlus
+WP Time Capsule
 ```
 
 ## -Page Builders:

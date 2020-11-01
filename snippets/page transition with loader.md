@@ -169,11 +169,7 @@ function stop() {
         -webkit-transform: scaleY(1);
       }
     }
-    .page {
-      position: relative;
-      border: 1px solid #000;
-    }
-    
+  
     .page:before, .page:after {
       content: '';
       height: 50vh;
@@ -265,6 +261,9 @@ function stop() {
       height: 100vh;
       /* padding: 10px; */
       text-align: center;
+      overfolw: hidden;
+      position: relative;
+      border: 1px solid #000;
     }
   </style>
 
@@ -286,6 +285,7 @@ function stop() {
   </script>
 
   <div class="page">
+    Page Content
     <div class="loader">
     <div class="bar1"></div>
     <div class="bar2"></div>

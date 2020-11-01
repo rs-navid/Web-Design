@@ -9,7 +9,8 @@
 </div>
 ```
 
-``` @-webkit-keyframes delay {
+``` css
+@-webkit-keyframes delay {
   0%, 40%, 100% {
     transform: scaleY(0.05);
     -webkit-transform: scaleY(0.05);

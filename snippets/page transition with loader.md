@@ -1,3 +1,4 @@
+### HTML:
 ``` html
 <div class="loader">
   <div class="bar1"></div>
@@ -9,6 +10,7 @@
 </div>
 ```
 
+# CSS:
 ``` css
 @-webkit-keyframes delay {
   0%, 40%, 100% {
@@ -128,7 +130,7 @@ main {
   text-align: center;
 }
 ```
-
+# JS:
 ``` javascript
 setInterval(transition, 4000);
 setTimeout(function() {

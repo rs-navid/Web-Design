@@ -1,5 +1,5 @@
 
-# Page Speed, Push Notification, Chrome Extensions, Theme Sites, Icons & Vectors Sites:
+# Page Speed, Push Notification, Chrome Extensions & Assets:
 ## -Page Speed:
 ```
 PageSpeed Insights

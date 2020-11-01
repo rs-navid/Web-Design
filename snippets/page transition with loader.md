@@ -10,7 +10,7 @@
 </div>
 ```
 
-# CSS:
+### CSS:
 ``` css
 @-webkit-keyframes delay {
   0%, 40%, 100% {
@@ -130,7 +130,7 @@ main {
   text-align: center;
 }
 ```
-# JS:
+### JS:
 ``` javascript
 setInterval(transition, 4000);
 setTimeout(function() {

@@ -148,146 +148,146 @@ function stop() {
 }
 ```
 <html>
-<style>
-  @-webkit-keyframes delay {
-    0%, 40%, 100% {
-      transform: scaleY(0.05);
-      -webkit-transform: scaleY(0.05);
+  <style>
+    @-webkit-keyframes delay {
+      0%, 40%, 100% {
+        transform: scaleY(0.05);
+        -webkit-transform: scaleY(0.05);
+      }
+      20% {
+        transform: scaleY(1);
+        -webkit-transform: scaleY(1);
+      }
     }
-    20% {
-      transform: scaleY(1);
-      -webkit-transform: scaleY(1);
+    @keyframes delay {
+      0%, 40%, 100% {
+        transform: scaleY(0.05);
+        -webkit-transform: scaleY(0.05);
+      }
+      20% {
+        transform: scaleY(1);
+        -webkit-transform: scaleY(1);
+      }
     }
-  }
-  @keyframes delay {
-    0%, 40%, 100% {
-      transform: scaleY(0.05);
-      -webkit-transform: scaleY(0.05);
+    .page:before, .page:after {
+      content: '';
+      height: 50vh;
+      width: 100%;
+      position: fixed;
+      left: 0;
+      background: #1c2020;
+      z-index: 1;
+      -webkit-transition: all .2s;
+      transition: all .2s;
     }
-    20% {
-      transform: scaleY(1);
-      -webkit-transform: scaleY(1);
+
+    .page:before {
+      top: 0;
+      -webkit-transform: translateY(-100%);
+              transform: translateY(-100%);
     }
-  }
-  .page:before, .page:after {
-    content: '';
-    height: 50vh;
-    width: 100%;
-    position: fixed;
-    left: 0;
-    background: #1c2020;
-    z-index: 1;
-    -webkit-transition: all .2s;
-    transition: all .2s;
-  }
-  
-  .page:before {
-    top: 0;
-    -webkit-transform: translateY(-100%);
-            transform: translateY(-100%);
-  }
-  .page:after {
-    bottom: 0;
-    -webkit-transform: translateY(100%);
-            transform: translateY(100%);
-  }
-  .page.show:before {
-    top: 50%;
-  }
-  .page.show:after {
-    bottom: 50%;
-  }
-  .page.show .loader {
-    opacity: 1;
-    -webkit-transition: all .2s linear .2s;
-    transition: all .2s linear .2s;
-  }
-  .loader {
-    margin: 0 auto;
-    width: 60px;
-    height: 50px;
-    text-align: center;
-    font-size: 10px;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    -webkit-transform: translateY(-50%) translateX(-50%);
-            transform: translateY(-50%) translateX(-50%);
-    z-index: 500;
-    opacity: 0;
-  }
-  
-  .loader > div {
-    height: 100%;
-    width: 8px;
-    display: inline-block;
-    float: left;
-    margin-left: 2px;
-    -webkit-animation: delay 0.8s infinite ease-in-out;
-            animation: delay 0.8s infinite ease-in-out;
-  }
-  
-  .loader .bar1 {
-    background-color: #754fa0;
-  }
-  .loader .bar2 {
-    background-color: #09b7bf;
-    -webkit-animation-delay: -0.7s;
-            animation-delay: -0.7s;
-  }
-  .loader .bar3 {
-    background-color: #90d36b;
-    -webkit-animation-delay: -0.6s;
-            animation-delay: -0.6s;
-  }
-  .loader .bar4 {
-    background-color: #f2d40d;
-    -webkit-animation-delay: -0.5s;
-            animation-delay: -0.5s;
-  }
-  .loader .bar5 {
-    background-color: #fcb12b;
-    -webkit-animation-delay: -0.4s;
-            animation-delay: -0.4s;
-  }
-  .loader .bar6 {
-    background-color: #ed1b72;
-    -webkit-animation-delay: -0.3s;
-            animation-delay: -0.3s;
-  }
+    .page:after {
+      bottom: 0;
+      -webkit-transform: translateY(100%);
+              transform: translateY(100%);
+    }
+    .page.show:before {
+      top: 50%;
+    }
+    .page.show:after {
+      bottom: 50%;
+    }
+    .page.show .loader {
+      opacity: 1;
+      -webkit-transition: all .2s linear .2s;
+      transition: all .2s linear .2s;
+    }
+    .loader {
+      margin: 0 auto;
+      width: 60px;
+      height: 50px;
+      text-align: center;
+      font-size: 10px;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      -webkit-transform: translateY(-50%) translateX(-50%);
+              transform: translateY(-50%) translateX(-50%);
+      z-index: 500;
+      opacity: 0;
+    }
 
-  .page {
-    height: 100vh;
-    /* padding: 10px; */
-    text-align: center;
-  }
-</style>
+    .loader > div {
+      height: 100%;
+      width: 8px;
+      display: inline-block;
+      float: left;
+      margin-left: 2px;
+      -webkit-animation: delay 0.8s infinite ease-in-out;
+              animation: delay 0.8s infinite ease-in-out;
+    }
 
-<scripts>
-  setInterval(transition, 4000);
-  setTimeout(function() {
-     setInterval(stop, 4000);
-   }, 2000);
+    .loader .bar1 {
+      background-color: #754fa0;
+    }
+    .loader .bar2 {
+      background-color: #09b7bf;
+      -webkit-animation-delay: -0.7s;
+              animation-delay: -0.7s;
+    }
+    .loader .bar3 {
+      background-color: #90d36b;
+      -webkit-animation-delay: -0.6s;
+              animation-delay: -0.6s;
+    }
+    .loader .bar4 {
+      background-color: #f2d40d;
+      -webkit-animation-delay: -0.5s;
+              animation-delay: -0.5s;
+    }
+    .loader .bar5 {
+      background-color: #fcb12b;
+      -webkit-animation-delay: -0.4s;
+              animation-delay: -0.4s;
+    }
+    .loader .bar6 {
+      background-color: #ed1b72;
+      -webkit-animation-delay: -0.3s;
+              animation-delay: -0.3s;
+    }
 
-  function transition() {
-    var body = document.querySelector('body');
-    body.classList.add('show');
-  }
+    .page {
+      height: 100vh;
+      /* padding: 10px; */
+      text-align: center;
+    }
+  </style>
 
-  function stop() {
-    var body = document.querySelector('body');
-    body.classList.remove('show');
-  }
-</scripts>
+  <script>
+    setInterval(transition, 4000);
+    setTimeout(function() {
+       setInterval(stop, 4000);
+     }, 2000);
 
-<div class="page">
-  <div class="loader">
-  <div class="bar1"></div>
-  <div class="bar2"></div>
-  <div class="bar3"></div>
-  <div class="bar4"></div>
-  <div class="bar5"></div>
-  <div class="bar6"></div>
-</div>
-</div>
+    function transition() {
+      var body = document.querySelector('body');
+      body.classList.add('show');
+    }
+
+    function stop() {
+      var body = document.querySelector('body');
+      body.classList.remove('show');
+    }
+  </script>
+
+  <div class="page">
+    <div class="loader">
+    <div class="bar1"></div>
+    <div class="bar2"></div>
+    <div class="bar3"></div>
+    <div class="bar4"></div>
+    <div class="bar5"></div>
+    <div class="bar6"></div>
+  </div>
+  </div>
 </html>

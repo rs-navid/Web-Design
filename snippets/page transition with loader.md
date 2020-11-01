@@ -261,7 +261,7 @@ function stop() {
       height: 100vh;
       /* padding: 10px; */
       text-align: center;
-      overfolw: hidden;
+      overflow: hidden;
       position: relative;
       border: 1px solid #000;
     }

@@ -270,12 +270,12 @@ function stop() {
      }, 2000);
 
     function transition() {
-      var body = document.querySelector('body');
+      var body = document.querySelector('.page');
       body.classList.add('show');
     }
 
     function stop() {
-      var body = document.querySelector('body');
+      var body = document.querySelector('.page');
       body.classList.remove('show');
     }
   </script>

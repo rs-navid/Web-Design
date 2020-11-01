@@ -147,7 +147,7 @@ function stop() {
   body.classList.remove('show');
 }
 ```
-
+<html>
 <styles>
   @-webkit-keyframes delay {
     0%, 40%, 100% {
@@ -290,3 +290,4 @@ function stop() {
   <div class="bar6"></div>
 </div>
 </div>
+</html>

@@ -148,7 +148,7 @@ function stop() {
 }
 ```
 <html>
-<styles>
+<style>
   @-webkit-keyframes delay {
     0%, 40%, 100% {
       transform: scaleY(0.05);
@@ -261,7 +261,7 @@ function stop() {
     /* padding: 10px; */
     text-align: center;
   }
-</styles>
+</style>
 
 <scripts>
   setInterval(transition, 4000);

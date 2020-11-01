@@ -169,11 +169,16 @@ function stop() {
         -webkit-transform: scaleY(1);
       }
     }
+    .page {
+      position: relative;
+      border: 1px solid #000;
+    }
+    
     .page:before, .page:after {
       content: '';
       height: 50vh;
       width: 100%;
-      position: fixed;
+      position: absolute;
       left: 0;
       background: #1c2020;
       z-index: 1;

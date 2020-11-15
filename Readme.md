@@ -34,6 +34,8 @@ Google XML Sitemaps
 ## -SSL & Security:
 ```
 Really Simple SSL
+Wordfence
+WP Hide & Security Enhancer
 iThemes Security
 ```
 

@@ -7,6 +7,16 @@ GTmetrix
 Pingdom
 ```
 
+## Server Speed Checker
+```
+https://www.bitcatcha.com/
+```
+
+## URL Shortener:
+```
+https://zaya.io/
+```
+
 ## -Push Notification:
 ```
 SendPulse

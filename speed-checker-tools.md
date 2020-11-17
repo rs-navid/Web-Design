@@ -1,5 +1,5 @@
-# Speed Checker Tools:
-## -Page Speed Checker Toola:
+# Speed & Performance Checker Tools:
+## -Page Speed & Performance Checker Tools:
 ```
 PageSpeed Insights
 GTmetrix

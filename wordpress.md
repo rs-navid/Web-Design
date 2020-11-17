@@ -1,31 +1,33 @@
 # Wordpress Resources:
 ## -Manage WP Clients:
-* ManageWP [Control panel](https://managewp.com/) [Worker plugin](https://wordpress.org/plugins/worker/) 
-* MainWP
-
-
-## -Backup Tools:
 ```
-UpdraftPlus
+ManageWP 
+MainWP
+```
+
+
+## -Backup & Migration Plugins:
+```
+UpdraftPlus - Backup Plugin
 WP Time Capsule
+Duplicator – Migration Plugin
 ```
 
-## -Page Builders & Addons:
+## -Page Builder Plugins & Addons:
 ```
 Elementor (elementorfa.ir) 
 Unlimited Elements for Elementor
-Jet
+Jet 
 Envato Elements
-Form Vibes (Database Manager for Forms) 
 ```
 
-## -Optimization:
+## -Optimization Plugins:
 ```
 WP Rocket (wp-rocket.ir) 
 Smush – Lazy Load Images, Optimize & Compress Images
 ```
 
-## -SEO & Digital Marketing:
+## -SEO, Sitemap & Google Analytics Plugins:
 ```
 Yoast SEO
 RankMath
@@ -34,31 +36,41 @@ Internal Link Juicer: SEO Auto Linker for WordPress
 Google XML Sitemaps
 ```
 
-## -SSL & Security:
+## -SSL & Security Plugins:
 ```
 Really Simple SSL
 Wordfence
 iThemes Security
 ```
 
-## -Email:
+## -Email Plugins:
 ```
 WP Mail SMTP by WPForms
 ```
 
-## -Social Login & Share Icons:
+## -Social Login & Share Icon Plugins:
 ```
 Super Socializer
 ```
 
-## -Chat:
+## -Chat Plugins:
 ```
-Raychat
 Crisp
 Tidio
+Raychat
 ```
 
-## -MISC:
+## -Form Plugins:
+```
+Form Vibes (Database Manager for Forms) 
+```
+
+## -Search & Replace Plugins:
+```
+Better Search Replace
+```
+
+## -Custom CSS & JS Plugins:
 ```
 Insert Headers and Footers
 ```

@@ -1,9 +1,8 @@
 # Wordpress Resources:
 ## -Manage WP Clients:
-```
-ManageWP [Control panel](https://managewp.com/) [Worker plugin](https://wordpress.org/plugins/worker/) 
-MainWP
-```
+*ManageWP [Control panel](https://managewp.com/) [Worker plugin](https://wordpress.org/plugins/worker/) 
+*MainWP
+
 
 ## -Backup Tools:
 ```

@@ -1,13 +1,17 @@
-# Wordpress Plugins, Themes & Services:
-## -Manage Clients & Backups:
+# Wordpress Resources:
+## -Manage WP Clients:
 ```
-ManageWP
+ManageWP [Control panel](https://managewp.com/) [Worker plugin](https://wordpress.org/plugins/worker/) 
 MainWP
+```
+
+## -Backup Tools:
+```
 UpdraftPlus
 WP Time Capsule
 ```
 
-## -Page Builders:
+## -Page Builders & Addons:
 ```
 Elementor (elementorfa.ir) 
 Unlimited Elements for Elementor

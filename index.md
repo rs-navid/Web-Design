@@ -5,4 +5,5 @@
 [-Push Notification](https://rs-navid.github.io/Web-Design-Resources/push-notification) <br>
 [-URL Shortener](https://rs-navid.github.io/Web-Design-Resources/url-shortener) <br>
 [-Stock Photo Resources](https://rs-navid.github.io/Web-Design-Resources/stock-photo-resources) <br>
+[-Mockups & Mockup Generators](https://rs-navid.github.io/Web-Design-Resources/mockup) <br>
 [-General Resources](https://rs-navid.github.io/Web-Design-Resources/assets) 

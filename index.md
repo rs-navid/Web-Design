@@ -7,4 +7,5 @@
 [-Stock Photo Resources](https://rs-navid.github.io/Web-Design-Resources/stock-photo-resources) <br>
 [-Mockups & Mockup Generators](https://rs-navid.github.io/Web-Design-Resources/mockup) <br>
 [-Color Palletes & Color Gradients](https://rs-navid.github.io/Web-Design-Resources/colors-gradients) <br>
+[-Icons, Animated Icons & Icon Sets](https://rs-navid.github.io/Web-Design-Resources/icons) <br>
 [-General Resources](https://rs-navid.github.io/Web-Design-Resources/assets) 

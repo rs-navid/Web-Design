@@ -6,4 +6,5 @@
 [-URL Shortener](https://rs-navid.github.io/Web-Design-Resources/url-shortener) <br>
 [-Stock Photo Resources](https://rs-navid.github.io/Web-Design-Resources/stock-photo-resources) <br>
 [-Mockups & Mockup Generators](https://rs-navid.github.io/Web-Design-Resources/mockup) <br>
+[-Color Palletes & Color Gradients](https://rs-navid.github.io/Web-Design-Resources/colors-gradients) <br>
 [-General Resources](https://rs-navid.github.io/Web-Design-Resources/assets) 

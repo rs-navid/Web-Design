@@ -4,4 +4,5 @@
 [-Chrome Extensions](https://rs-navid.github.io/Web-Design-Resources/chrome-extensions) <br>
 [-Push Notification](https://rs-navid.github.io/Web-Design-Resources/push-notification) <br>
 [-URL Shortener](https://rs-navid.github.io/Web-Design-Resources/url-shortener) <br>
+[-Stock Photo Resources](https://rs-navid.github.io/Web-Design-Resources/stock-photo-resources) <br>
 [-General Resources](https://rs-navid.github.io/Web-Design-Resources/assets) 

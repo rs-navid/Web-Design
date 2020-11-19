@@ -7,6 +7,7 @@
 [-Stock Photo Resources](https://rs-navid.github.io/Web-Design-Resources/stock-photo-resources) <br>
 [-Stock Video Footage](https://rs-navid.github.io/Web-Design-Resources/stock-video-footage) <br>
 [-Mockups & Mockup Generators](https://rs-navid.github.io/Web-Design-Resources/mockup) <br>
+[-UI Inspirations](https://rs-navid.github.io/Web-Design-Resources/ui-inspirations) <br>
 [-Color Palletes & Color Gradients](https://rs-navid.github.io/Web-Design-Resources/colors-gradients) <br>
 [-Icons, Animated Icons & Icon Sets](https://rs-navid.github.io/Web-Design-Resources/icons) <br>
 [-Vector, Pattern & Illustration Resources](https://rs-navid.github.io/Web-Design-Resources/graphic-resources) <br>

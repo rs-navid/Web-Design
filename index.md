@@ -9,4 +9,5 @@
 [-Color Palletes & Color Gradients](https://rs-navid.github.io/Web-Design-Resources/colors-gradients) <br>
 [-Icons, Animated Icons & Icon Sets](https://rs-navid.github.io/Web-Design-Resources/icons) <br>
 [-Vector, Pattern & Illustration Resources](https://rs-navid.github.io/Web-Design-Resources/graphic-resources) <br>
+[-Image Tools](https://rs-navid.github.io/Web-Design-Resources/image-tools) <br>
 [-General Resources](https://rs-navid.github.io/Web-Design-Resources/assets) 

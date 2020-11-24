@@ -65,7 +65,7 @@ Raychat
 Form Vibes (Database Manager for Forms) 
 ```
 
-## -sLIDER pLUGINS:
+## -Slider Plugins:
 ```
 Slider Revolution (revslider.ir) (templates: https://slidertemplates.com)
 ```

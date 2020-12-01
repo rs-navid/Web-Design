@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100vw;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-size: cover;
+  background-position: center;
+  font-family: "Share Tech Mono", monospace;
+  font-size: 2rem;
+  background-blend-mode: multiply,screen, overlay;
+}
+
+div {
+  font-family: "Share Tech Mono", monospace;
+  color: #fff;
+  font-size: 6vh;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.45);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+div::before, div::after {
+  content: '';
+  display: block;
+  height: 0.2em;
+  min-width: 30vw;
+}
+div::before {
+  background: linear-gradient(to right, #eee, #aaa);
+  margin-right: 4vh;
+}
+div::after {
+  background: linear-gradient(to left, #eee, #aaa);
+  margin-left: 4vh;
+}

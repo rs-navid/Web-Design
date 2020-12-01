@@ -1,5 +1,5 @@
 /* Divider1 */
-div1 {
+.div1 {
   font-family: "Share Tech Mono", monospace;
   color: #fff;
   font-size: 6vh;
@@ -8,23 +8,23 @@ div1 {
   justify-content: center;
   align-items: center;
 }
-div1::before, div::after {
+.div1::before, .div1::after {
   content: '';
   display: block;
   height: 0.2em;
   min-width: 30vw;
 }
-div1::before {
+.div1::before {
   background: linear-gradient(to right, #eee, #aaa);
   margin-right: 4vh;
 }
-div1::after {
+.div1::after {
   background: linear-gradient(to left, #eee, #aaa);
   margin-left: 4vh;
 }
 
 /* Divider 2 */
-div2 {
+.div2 {
   font-family: "Share Tech Mono", monospace;
   color: #fff;
   font-size: 6vh;
@@ -33,17 +33,17 @@ div2 {
   justify-content: center;
   align-items: center;
 }
-div2::before, div::after {
+.div2::before, .div2::after {
   content: '';
   display: block;
   height: 0.09em;
   min-width: 30vw;
 }
-div2::before {
+.div2::before {
   background: linear-gradient(to right, rgba(240, 240, 240, 0), #fff);
   margin-right: 4vh;
 }
-div2::after {
+.div2::after {
   background: linear-gradient(to left, rgba(240, 240, 240, 0), #fff);
   margin-left: 4vh;
 }

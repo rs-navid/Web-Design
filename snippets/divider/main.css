@@ -24,6 +24,11 @@
 }
 
 /* Divider 2 */
+.container2 {
+  padding: 0 50px;
+  background-color: #eee;
+}
+
 .div2 {
   font-family: "Share Tech Mono", monospace;
   color: #fff;

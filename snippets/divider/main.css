@@ -1,23 +1,5 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-body {
-  width: 100vw;
-  min-height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-size: cover;
-  background-position: center;
-  font-family: "Share Tech Mono", monospace;
-  font-size: 2rem;
-  background-blend-mode: multiply,screen, overlay;
-}
-
-div {
+/* Divider1 */
+div1 {
   font-family: "Share Tech Mono", monospace;
   color: #fff;
   font-size: 6vh;
@@ -26,17 +8,44 @@ div {
   justify-content: center;
   align-items: center;
 }
-div::before, div::after {
+div1::before, div::after {
   content: '';
   display: block;
   height: 0.2em;
   min-width: 30vw;
 }
-div::before {
+div1::before {
   background: linear-gradient(to right, #eee, #aaa);
   margin-right: 4vh;
 }
-div::after {
+div1::after {
   background: linear-gradient(to left, #eee, #aaa);
   margin-left: 4vh;
 }
+
+/* Divider 2 */
+div2 {
+  font-family: "Share Tech Mono", monospace;
+  color: #fff;
+  font-size: 6vh;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.45);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+div2::before, div::after {
+  content: '';
+  display: block;
+  height: 0.09em;
+  min-width: 30vw;
+}
+div2::before {
+  background: linear-gradient(to right, rgba(240, 240, 240, 0), #fff);
+  margin-right: 4vh;
+}
+div2::after {
+  background: linear-gradient(to left, rgba(240, 240, 240, 0), #fff);
+  margin-left: 4vh;
+}
+
+

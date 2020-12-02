@@ -1,16 +1,16 @@
 # Resource Categories:
-[-Wordpress Resources](https://rs-navid.github.io/Web-Design-Resources/wordpress) <br>
-[-Speed & Performance Checker Tools](https://rs-navid.github.io/Web-Design-Resources/speed-checker-tools) <br>
-[-Chrome Extensions](https://rs-navid.github.io/Web-Design-Resources/chrome-extensions) <br>
-[-Push Notification](https://rs-navid.github.io/Web-Design-Resources/push-notification) <br>
-[-URL Shortener](https://rs-navid.github.io/Web-Design-Resources/url-shortener) <br>
-[-Stock Photo Resources](https://rs-navid.github.io/Web-Design-Resources/stock-photo-resources) <br>
-[-Stock Video Footage](https://rs-navid.github.io/Web-Design-Resources/stock-video-footage) <br>
-[-Mockups & Mockup Generators](https://rs-navid.github.io/Web-Design-Resources/mockup) <br>
-[-UI Inspirations](https://rs-navid.github.io/Web-Design-Resources/ui-inspirations) <br>
-[-Color Palletes & Color Gradients](https://rs-navid.github.io/Web-Design-Resources/colors-gradients) <br>
-[-Icons, Animated Icons & Icon Sets](https://rs-navid.github.io/Web-Design-Resources/icons) <br>
-[-Vector, Pattern & Illustration Resources](https://rs-navid.github.io/Web-Design-Resources/graphic-resources) <br>
+[-Wordpress Resources](./wordpress) <br>
+[-Speed & Performance Checker Tools](./speed-checker-tools) <br>
+[-Chrome Extensions](./chrome-extensions) <br>
+[-Push Notification](./push-notification) <br>
+[-URL Shortener](./url-shortener) <br>
+[-Stock Photo Resources](./stock-photo-resources) <br>
+[-Stock Video Footage](./stock-video-footage) <br>
+[-Mockups & Mockup Generators](./mockup) <br>
+[-UI Inspirations](./ui-inspirations) <br>
+[-Color Palletes & Color Gradients](./colors-gradients) <br>
+[-Icons, Animated Icons & Icon Sets](./icons) <br>
+[-Vector, Pattern & Illustration Resources](./graphic-resources) <br>
 
 # Tools:
 ## -Image Tools

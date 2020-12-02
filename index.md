@@ -15,3 +15,6 @@
 # Tools:
 ## -Image Tools
 [-Background Remove](https://www.remove.bg) <br>
+
+# Snippets:
+[-Snippets](./snippets)

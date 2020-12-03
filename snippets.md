@@ -1,4 +1,4 @@
 # Snippets
-[-Dividers](./snippets/all.html?name=divider) <br>
-[-Dividers](./snippets/all.html?name=cards) <br>
+[-Ctas](./snippets/all.html?name=cta) <br>
+[-Cards](./snippets/all.html?name=card) <br>
 

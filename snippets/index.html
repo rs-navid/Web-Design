@@ -1,0 +1,64 @@
+<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="../assets/github.css">
+<script src="../assets/highlight.pack.js"></script>
+
+<style>
+  body {
+    margin: 0;
+    font-family: "Roboto", sans-serif;
+  }
+
+  iframe {
+    width: 100%;
+    height: 100vh;
+  }
+
+  #preview {
+    position: relative;
+  }
+
+  #preview a {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    background-color: #aaa;
+    color: blue;
+    padding: 5px 10px;
+  }
+
+  .code {
+    margin: 50px;
+  }
+</style>
+<div id="preview"></div>
+
+
+<script>
+  var type = new URLSearchParams(window.location.search).get("type");
+  var name = new URLSearchParams(window.location.search).get("name");
+  var id = new URLSearchParams(window.location.search).get("id");
+
+  if(type != "code")
+  {
+    document.getElementById("preview").insertAdjacentHTML("beforeend", `<iframe src='./${name + "s/" + type + "/" + name + id + ".html"}' frameborder="0"></iframe>`);
+  } else {
+    document.getElementById("preview").insertAdjacentHTML("beforeend", `<div class="code"><pre><code class="html"></code></pre></div>`);
+    readData(`./${name + "s/" + "snippets" + "/" + name + id + "-1.html"}`);
+  }
+
+    
+
+  if(type == "snippets"){
+    document.getElementById("preview").insertAdjacentHTML("beforeend", `<a target="_blank" href='./index.html?type=code&name=${name}&id=${id}'>View Code</a>`);
+  }
+
+  async function readData(url){
+    var data = await fetch(url);
+    data = await data.text();
+    data = data.replaceAll("<", "&lt;")
+    data = data.replaceAll(">", "&gt;")
+    document.querySelector("#preview pre code").innerHTML = data;
+    hljs.highlightBlock(document.querySelector('pre code'));
+  }
+
+</script>

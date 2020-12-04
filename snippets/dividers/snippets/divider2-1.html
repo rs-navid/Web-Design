@@ -1,0 +1,65 @@
+<style>
+  body{background:#444;}
+.divider {
+  height: .5px;
+  background: #000;
+  background: -webkit-linear-gradient(left, rgb(255,255,255) 0%, rgb(50,50,50) 50%, rgb(255,255,255) 100%);
+}
+.divider.light {
+  background: #fff;
+  background: -webkit-linear-gradient(left, rgb(90,90,90) 0%, rgb(255,255,255) 50%, rgb(90,90,90) 100%);
+}
+
+.divider.light:before {
+  position:relative;
+  float:left;
+  background: linear-gradient(to right, rgba(100, 100, 100, 0), rgba(100, 100, 100, 1) 50%);
+  margin-top:2px;
+  width:50%;
+  height:1px;
+  content:"";
+}
+
+.divider.light:after {
+  position:relative;
+  float:right;
+  background: linear-gradient(to left, rgba(100, 100, 100, 0), rgba(100, 100, 100, 1) 50%);
+  margin-top:2px;
+  width:50%;
+  height:1px;
+  content:"";  
+}
+
+.divider:before {
+  position:relative;
+  float:left;
+  background: linear-gradient(to right, rgba(200, 200, 200, 0), rgba(200, 200, 200, 1) 50%);
+  margin-top:2px;
+  width:50%;
+  height:1px;
+  content:"";
+}
+
+.divider:after {
+  position:relative;
+  float:right;
+  background: linear-gradient(to left, rgba(100, 200, 200, 0), rgba(200, 200, 200, 1) 50%);
+  margin-top:2px;
+  width:50%;
+  height:1px;
+  content:"";  
+}
+/* Presentation only */
+.width80 {width:80%;margin:0px auto;padding-top:50px;}
+.light-background {background:#fff;margin-top:50px;width:100%;height:100px;}
+</style>
+
+<br />
+<div class="width80">
+  <div class="divider light" />
+</div>
+<div class="light-background">
+  <div class="width80">
+    <div class="divider" />
+  </div>
+</div>

@@ -1,0 +1,25 @@
+<!DOCTYPE html> <html lang=en><!--
+ Page saved with SingleFile 
+ url: https://codepen.io/rs_navid/full/yLaewJr 
+ saved date: Fri Dec 04 2020 19:57:09 GMT+0330 (Iran Standard Time)
+--><meta charset=utf-8>
+<meta name=apple-mobile-web-app-title content=CodePen>
+<title>CodePen - Fading Divider</title>
+<style>body{background:#444}.divider{height:.5px;background:#000;background:-webkit-linear-gradient(left,rgb(255,255,255) 0%,rgb(50,50,50) 50%,rgb(255,255,255) 100%)}.divider.light{background:#fff;background:-webkit-linear-gradient(left,rgb(90,90,90) 0%,rgb(255,255,255) 50%,rgb(90,90,90) 100%)}.divider.light:before{position:relative;float:left;background:linear-gradient(to right,rgba(100,100,100,0),rgba(100,100,100,1) 50%);margin-top:2px;width:50%;height:1px;content:""}.divider.light:after{position:relative;float:right;background:linear-gradient(to left,rgba(100,100,100,0),rgba(100,100,100,1) 50%);margin-top:2px;width:50%;height:1px;content:""}.divider:before{position:relative;float:left;background:linear-gradient(to right,rgba(200,200,200,0),rgba(200,200,200,1) 50%);margin-top:2px;width:50%;height:1px;content:""}.divider:after{position:relative;float:right;background:linear-gradient(to left,rgba(100,200,200,0),rgba(200,200,200,1) 50%);margin-top:2px;width:50%;height:1px;content:""}.width80{width:80%;margin:0px auto;padding-top:50px}.light-background{background:#fff;margin-top:50px;width:100%;height:100px}</style>
+<link rel="shortcut icon" type=image/x-icon href=data:image/vnd.microsoft.icon;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAAAXNSR0IArs4c6QAABZxJREFUaAXdWkdLZFsQNi3E7HIQI4hhlmZGUQyoqPgHZmUOC5duBPe6UESMGBBx5d4s7pyHe0HMirg2IIKh3vkc686599btvt32wOtXcDnlCV99X53uPnW6DQn5NCIKVU+7en6p50E9/zUDJ3ADx1Dm/dGqjm/q2VFPsBi4fgN5ZB1qttVTiY4gsl3FtfrjZaOcmSAirlPtgIBfqqdI7w0i/58wRfb73yA8NzcXkpmZ+fHMz8//jRDA/B4S6Hft1dUV1dbWkgI3PejDWKAtoAKmp6cpNjbWRFwXgjHMCaQFRMDFxQVVVVU5EtdFwK+uriasCYR9ScD7+ztNTExQTEyMa/IsBmuwFhhfMb8FnJ6eUkVFhY14aGgodXZ2Uk5OjjEGH30YYwHcAgNY/prPApCxsbExio6OtpFJS0uj7e3tDy55eXnGOHwYxjCHyXMLLGD6sxs+CTg+PqaysjIbAWS2q6uLHh7+lFCSAIjAHMyVdgPYiOGLuRLw9vZGIyMjFBUVZSOPjO7s2MsoJwFMDmuk3UAMxEJMN+ZVwNHREf348cNGHBns6ekxZV0P6E0A5mI3gCHtBmIitjdzFIAMDA8PU2RkpI18eno67e7uesR2I4ABgAVMfk9wi9jg4Gk3RAEnJydUXFxsA0Sment76fHxkWM7tr4IAAgwgS3tBriAk2SigIKCAhv5jIwM2tvbkzBsfWtra5SQkGBgwEefG0MMxOJd4DY/P19cLgqQsjAwMECvr68iCHfe3d1Ra2urLTiTwBjmeDLEQCxewy04SSYK4EXWtrCwkA4PDyUc2tzcpJSUFFtgKwbmYK5kwEYM6xr+W1rjkwAA4Y01NDRkvLHwSYJTloPobVNTE+HR+9jHGj438CYFpvSBwfPRSib26ouSk5MpIiLCRqKkpISWl5fFz/L4+HhaXFw04sFHn44LH+cAMIBlHUNMxNb7DUDN8SoAmTo4OKDc3FwTmA6s+6j7r6+vtRC/XfRJ9wR9LfuIhZjWnbWBqg5XArDw+fmZ+vv7KTw8XBSCWn9mZkaKYerDHKc7A7ARA7FgbgTgSunKFF7Iy8sLBIvzVSHmcRyLGANzJeNxpxjSGlc7sL+/T1lZWWLmwUt/Kisr6fz8XHEwG/owps918hELMd3sgFcBSUlJ4ssGdfzq6iqpi7uNFC4rU1NThgL40qUHa4Eh3SvwckJsXaQBqDleBegA8FEt6rX709MT9fX1iSVATU0N4bFi4FDCGqyF8R1Dqnb1tRpvw/VJACpEp3rdqQTQCcD3VJIAW6p8GcNgrTmigLCwMFvWBgcHjcNLW29yUZB1d3eLu4GsY8xbIYhDDbGYNLfgJJkooKioyAaQmppKW1tbEoatD1fHxMREAwM+XzVtky0diIFYTJxbHHaSiQLwiVFaWmoDAVhHRwfd399LWKY+X8tpYAKbCetteXk5XV5emvD5D1EABrGVo6Oj4jXSU0HGwL4IcCoE8ck1Pj7u8bLvKICJ4CKBDOgZYb+9vd2xPHYjAKU1MBhPb53OE+bFrVcBmIiPOWRC+ioFBdfGxgbjGa03AVhjLdYgAGUGzg3EdGOuBDDQ2dmZ42na1tZm2g0nAcg65urZZh9nhtNrnTlYW58EYDEyMzk5KRZkyOj6+vpHDEkAxqSsx8XF0ezsrJWbq799FsCo+HJWOmWRzZaWFsrOzjayDB99nGm9ra+vF8tvjuOt9VsAAyNzyKBOyo2Pi/7CwgLD+N1+WQAi47JSV1fnWkRjYyPd3Nz4TVpfGBABDKh+SjJ9nWLdCZzIS0tLPD0gbUAFgBEy29DQYNuN5uZmur29DQhpHQQC/nylrI980UemcTHBbwMrKytfRHNc/vC/+Jl1Tr1Wg9XmsANB/a8GYZ/fg/5UW4D/PQgWA9efn9x/c8ZOqCfo/t3mX62qwqR92xWgAAAAAElFTkSuQmCC><link rel=canonical href=https://codepen.io/rs_navid/full/yLaewJr></head>
+<body translate=no>
+ <br>
+<div class=width80>
+ <div class="divider light">
+</div>
+<div class=light-background>
+ <div class=width80>
+ <div class=divider>
+ </div>
+</div>
+ 
+ 
+ 
+ 
+ 
+</div></div>

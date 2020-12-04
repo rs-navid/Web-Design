@@ -1,101 +1,84 @@
-<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet" />
-<link rel="stylesheet" href="../assets/glightbox.min.css" />
-<script src="../assets/glightbox.min.js"></script>
-
-<style>
-  * {
-    font-family: "Roboto", sans-serif;
-    margin: 0 !important;
-  }
-
-  .container {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  }
-
-  p.title {
-    font-size: 25px;
-    margin: 25px !important;
-  }
-
-  a.lb {
-    display: inline-block;
-    width: 100px;
-    height: 100px;
-    margin: 10px !important;
-    border: 1px solid #9E9E9E;
-    border-radius: 2px;
-    overflow: hidden;
-  }
-
-  a > img {
-    width: 100px;
-    height: 100px;
-    object-fit: cover;
-    object-position: center center;
-    transform: scale(1.8);
-  }
-
-  #ui,
-  #snippets {
-    text-align: center;
-    max-width: 500px;
-  }
-
-  .ginner-container {
-    align-items: center;
-  }
-</style>
-
-<div class="container">
-  <div id="ui">
-    <p class="title">UI Resources</p>
-  </div>
-
-  <div id="snippets">
-    <p class="title">Snippets</p>
-  </div>
-</div>
-
 <script>
   var lists = [
-    {name:"card", uiCounts: 3, snippetCounts: 1},
-    {name:"cta", uiCounts: 2, snippetCounts: 0},
+    { name: "card", uiCounts: 3, snippetCounts: 1 },
+    { name: "cta", uiCounts: 2, snippetCounts: 0 },
+    { name: "header", uiCounts: 1, snippetCounts: 0 },
+    { name: "footer", uiCounts: 1, snippetCounts: 0 },
+    { name: "hero", uiCounts: 1, snippetCounts: 0 },
+    { name: "team", uiCounts: 1, snippetCounts: 0 },
+    { name: "testimonial", uiCounts: 1, snippetCounts: 0 },
+    { name: "divider", uiCounts: 0, snippetCounts: 1 },
   ];
-
-  var name = new URLSearchParams(window.location.search).get("name");
-  var uiCounts = lists.find(function(val){
-    return val.name == name
-  }).uiCounts;
-
-  var snippetCounts = lists.find(function(val){
-    return val.name == name
-  }).snippetCounts;
-
-  for (let index = 1; index <= uiCounts; index++) {
-    document
-      .getElementById("ui")
-      .insertAdjacentHTML(
-        "beforeend",
-        `<a href="./${name}s/ui/${name}${index}.png" class="glightboxUI lb" data-glightbox="title: ${
-          name + index
-        }; description: <div><a href='./index.html?type=ui&name=${name}&id=${index}'>View</a></div>"><img src="./${name}s/ui/${name + index}.png" alt="image"></a>`
-      );
-  }
-
-  for (let index = 1; index <= snippetCounts; index++) {
-    document
-      .getElementById("snippets")
-      .insertAdjacentHTML(
-        "beforeend",
-        `<a href="./${name}s/snippets/${name}${index}.png" class="glightboxSnippets lb" data-glightbox="title: ${
-          name + index
-        }; description: <div><a href='./index.html?type=snippets&name=${name}&id=${index}'>View</a></div>"><img src="./${name}s/snippets/${name + index}.png" alt="image"></a>`
-      );
-  }
-
-  GLightbox({ selector: ".glightboxUI" });
-  GLightbox({ selector: ".glightboxSnippets" });
 </script>
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Web-Design-Resources</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="../assets/glightbox.min.css" />
+    <script src="../assets/glightbox.min.js"></script>
+    <link href="../assets/main.css" rel="stylesheet" />
+  </head>
+  <body>
+    <section class="page-header">
+      <h1 class="project-name">Web-Design-Resources</h1>
+      <a href="https://github.com/rs-navid/Web-Design-Resources" class="btn">View on GitHub</a>
+    </section>
+
+    <div id="preview">
+      <h2>UI Resources:</h2>
+      <div class="container">
+        <div id="ui"></div>
+      </div>
+
+      <h2>Snippets:</h2>
+      <div class="container">
+        <div id="snippets"></div>
+      </div>
+    </div>
+  </body>
+
+  <script>
+    var body = document.querySelector("body");
+    var ui = document.getElementById("ui");
+    var snippets = document.getElementById("snippets");
+
+    if (location.protocol == "file:") {
+      body.innerHTML = `<div class="error-container"><div class="error">Please run the server <br> - npm install <br> - npm start <br> - <a href="http://127.0.0.1:8082/">http://127.0.0.1:8082</a></div></div>`;
+    } else {
+      var name = new URLSearchParams(window.location.search).get("name");
+
+      var uiCounts = lists.find(function (val) {
+        return val.name == name;
+      }).uiCounts;
+
+      var snippetCounts = lists.find(function (val) {
+        return val.name == name;
+      }).snippetCounts;
+
+      for (let index = 1; index <= uiCounts; index++) {
+        ui.insertAdjacentHTML(
+          "beforeend",
+          `<a href="./${name}s/ui/${name}${index}.png" class="glightboxUI lb" data-glightbox="description: <div><a class='btn' style='margin-top:0' href='./snippet.html?type=ui&name=${name}&id=${index}'>Live View</a></div>"><img src="./${name}s/ui/${
+            name + index
+          }.png" alt="image"></a>`
+        );
+      }
+
+      for (let index = 1; index <= snippetCounts; index++) {
+        snippets.insertAdjacentHTML(
+          "beforeend",
+          `<a href="./${name}s/snippets/${name}${index}.png" class="glightboxSnippets lb" data-glightbox="description: <div><a class='btn' style='margin-top:0' href='./snippet.html?type=snippets&name=${name}&id=${index}'>Live View</a></div>"><img src="./${name}s/snippets/${
+            name + index
+          }.png" alt="image"></a>`
+        );
+      }
+
+      GLightbox({ selector: ".glightboxUI" });
+      GLightbox({ selector: ".glightboxSnippets" });
+    }
+  </script>
+</html>

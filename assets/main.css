@@ -1,0 +1,149 @@
+* {
+  font-family: roboto;
+  margin: 0;
+}
+
+a {
+  color: #1e6bb8;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 0.9rem;
+  font-weight: normal;
+  line-height: 20px;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-weight: normal !important;
+  color: #159957 !important;
+  margin:  40px 0 15px;
+  text-align: left !important;
+}
+
+h4.gslide-title {
+  color: #159957;
+  text-align: left !important;
+}
+
+h1 {
+  font-size: 35px;
+}
+
+h2 {
+  font-size: 26px;
+}
+
+.page-header {
+  color: #fff !important;
+  text-align: center;
+  background-color: #159957;
+  background-image: linear-gradient(120deg, #155799, #159957);
+  min-height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.project-name {
+  font-size: 35px !important;
+  color: #fff !important;
+}
+
+.btn {
+  display: inline-block;
+  margin-top: 50px;
+  color: rgba(255, 255, 255, 0.7);
+  background-color: rgba(255, 255, 255, 0.08);
+  border-color: rgba(255, 255, 255, 0.2);
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 0.3rem;
+  transition: color 0.2s, background-color 0.2s, border-color 0.2s;
+  padding: 0.6rem 0.9rem;
+  font-size: 0.9rem;
+}
+
+.btn:hover {
+  color: rgba(255,255,255,0.8);
+  text-decoration: none;
+  background-color: rgba(255,255,255,0.2);
+  border-color: rgba(255,255,255,0.3);
+}
+
+.error-container {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  line-height: 30px;
+  color: #159957;
+  font-size: 20px;
+}
+
+.error {
+  padding: 50px;
+  background-color: #eee;
+  border-radius: 5px;
+}
+
+.error-container a {
+  color: #159957;
+}
+
+#preview {
+  margin: 50px 5%;
+}
+
+.code-container {
+  padding: 0 25px;
+  overflow: auto;
+  font-size: 0.9rem;
+  line-height: 1.45;
+  border-radius: 0.3rem;
+  word-wrap: normal;
+  background-color: #f3f6fa;
+  border: solid 1px #dce6f0;
+}
+
+
+
+.container {
+  margin-left: -10px;
+  margin-top: -10px;
+}
+
+p.title {
+  font-size: 25px;
+  margin: 25px !important;
+}
+
+a.lb {
+  display: inline-block;
+  width: 100px;
+  height: 100px;
+  margin: 10px !important;
+  border: 1px solid #9E9E9E;
+  border-radius: 2px;
+  overflow: hidden;
+}
+
+a > img {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  object-position: center center;
+  transform: scale(1.8);
+}
+
+.gdesc-inner {
+  background-image: linear-gradient(120deg, #155799, #159957);
+  text-align: center;
+}
+
+.ginner-container {
+  align-items: center;
+}

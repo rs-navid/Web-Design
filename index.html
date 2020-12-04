@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Web-Design-Resources</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet" />
+    <link href="./assets/main.css" rel="stylesheet" />
+  </head>
+  <body>
+    <section class="page-header">
+      <h1 class="project-name">Web-Design-Resources</h1>
+      <a href="https://github.com/rs-navid/Web-Design-Resources" class="btn">View on GitHub</a>
+    </section>
+
+    <div id="preview">
+      <h1 id="resource-categories-">Resource Categories:</h1>
+      <p class="code-container">
+        <br>
+        <a href="./?page=wordpress">-Wordpress Resources</a> <br />
+        <a href="./?page=speed-checker-tools">-Speed &amp; Performance Checker Tools</a> <br />
+        <a href="./?page=chrome-extensions">-Chrome Extensions</a> <br />
+        <a href="./?page=push-notification">-Push Notification</a> <br />
+        <a href="./?page=url-shortener">-URL Shortener</a> <br />
+        <a href="./?page=stock-photo-resources">-Stock Photo Resources</a> <br />
+        <a href="./?page=stock-video-footage">-Stock Video Footage</a> <br />
+        <a href="./?page=mockup">-Mockups &amp; Mockup Generators</a> <br />
+        <a href="./?page=ui-inspirations">-UI Inspirations</a> <br />
+        <a href="./?page=colors-gradients">-Color Palletes &amp; Color Gradients</a> <br />
+        <a href="./?page=icons">-Icons, Animated Icons &amp; Icon Sets</a> <br />
+        <a href="./?page=graphic-resources">-Vector, Pattern &amp; Illustration Resources</a> <br />
+        <br>
+      </p>
+      <h1 id="tools-">Tools:</h1>
+      <p class="code-container">
+        <br>
+        <a href="https://www.remove.bg">-Background Remove</a> 
+        <br />
+        <br />
+      </p>
+      <h1 id="snippets-">Snippets:</h1>
+      <p class="code-container">
+        <br>
+        <a href="./?page=snippets">-Snippets</a>
+        <br>
+        <br>
+      </p>
+    </div>
+  </body>
+
+  <script>
+    var body = document.querySelector("body");
+    var preview = document.getElementById("preview");
+
+    function loadUrlData(url) {
+        fetch(url, {mode: 'no-cors'})
+        .then(function(data){
+          data.text().then(function(data){
+            preview.innerHTML = data;
+          });
+        }).catch(function(err) {
+          body.innerHTML = `<div class="error-container"><div class="error">Somthing went wrong</div></div>`;
+        });
+    }
+
+    if (location.protocol == "file:") {
+      body.innerHTML = `<div class="error-container"><div class="error">Please run the server <br> - npm install <br> - npm start <br> - <a href="http://127.0.0.1:8082/">http://127.0.0.1:8082</a></div></div>`;
+    } else {
+      var page = new URLSearchParams(window.location.search).get("page");
+      if (page) {
+        loadUrlData(`./pages/${page}.html`);
+      }
+    }
+  </script>
+</html>

@@ -1,3 +1,7 @@
+<script>
+  var ver = 1;
+</script>
+
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -53,13 +57,13 @@
     var preview = document.getElementById("preview");
 
     function loadUrlData(url) {
-        fetch(url, {mode: 'no-cors'})
+        fetch(url+"?ver="+ver, {mode: 'no-cors'})
         .then(function(data){
           data.text().then(function(data){
             preview.innerHTML = data;
           });
         }).catch(function(err) {
-          body.innerHTML = `<div class="error-container"><div class="error">Somthing went wrong</div></div>`;
+          body.innerHTML = `<div class="error-container"><div class="error">Something went wrong</div></div>`;
         });
     }
 
